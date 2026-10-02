@@ -15,7 +15,9 @@ include("layers/DirectedHypergraphConvolutionLayer.jl")
 include("layers/AsymmetricDirectedHypergraphLayer.jl")
 include("layers/ResidualDirectedHypergraphLayer.jl")
 include("layers/GatedDirectedHypergraphLayer.jl")
-
+include("layers/Spatial_hypergraph_layer_test.jl")
+include("layers/UniGNNHypergraphLayer_test.jl")
+include("layers/HypergraphAttentionLayer_test.jl")
 # Necessary for MLDatasets
 ENV["DATADEPS_ALWAYS_ACCEPT"] = true
 

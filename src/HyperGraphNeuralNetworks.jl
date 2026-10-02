@@ -21,6 +21,9 @@ include("layers/DirectedHypergraphConvolutionLayer.jl")
 include("layers/AsymmetricDirectedHypergraphLayer.jl")
 include("layers/ResidualDirectedHypergraphLayer.jl")
 include("layers/GatedDirectedHypergraphLayer.jl")
+include("layers/SpatialHypergraphLayer.jl")
+include("layers/UniGNNHypergraphLayer.jl")
+include("layers/HypergraphAttentionLayer.jl")
 
 export AbstractHGNNHypergraph, AbstractHGNNDiHypergraph
 export HGNNHypergraph, HGNNDiHypergraph
@@ -32,6 +35,9 @@ export DirectedHypergraphConvolutionLayer
 export AsymmetricDirectedHypergraphLayer
 export ResidualDirectedHypergraphLayer
 export GatedDirectedHypergraphLayer
+export SpatialHypergraphLayer
+export UniGNNHypergraphLayer
+export HypergraphAttentionLayer
 
 include("core/generate.jl")
 
